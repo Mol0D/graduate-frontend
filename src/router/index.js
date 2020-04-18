@@ -1,10 +1,17 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
+
+import Airplane from '../components/Airplane.vue';
+
 Vue.use(VueRouter);
 
 const routes = [
-
+  {
+    name: 'airplane',
+    path: '/airplane',
+    component: Airplane,
+  },
 ];
 
 const router = new VueRouter({
