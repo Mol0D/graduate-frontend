@@ -1,5 +1,3 @@
-# letim-epta
-
 ## Project setup
 ```
 npm install
